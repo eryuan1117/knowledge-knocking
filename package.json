@@ -1,0 +1,24 @@
+{
+  "name": "knowledge-knocking",
+  "productName": "知识来敲门",
+  "version": "1.0.0",
+  "description": "课堂随机点名系统",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-packager . 知识来敲门 --platform=win32 --arch=x64 --icon=images/app-icon.ico --out=dist --asar --app-version=1.0.0 --overwrite",
+    "build-mac": "electron-packager . 知识来敲门 --platform=darwin --arch=x64 --icon=images/app-icon.icns --out=dist --asar --app-version=1.0.0 --overwrite",
+    "package": "node build.js"
+  },
+  "keywords": [
+    "教育",
+    "课堂",
+    "随机点名"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-packager": "^17.1.2"
+  }
+} 
