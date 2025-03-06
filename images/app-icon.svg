@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- 背景 -->
+  <circle cx="256" cy="256" r="256" fill="#3B82F6" />
+  
+  <!-- 书本形状 -->
+  <path d="M128 128 L384 128 L384 384 L128 384 Z" fill="#FFFFFF" />
+  
+  <!-- 书本装饰 -->
+  <path d="M128 128 L128 384 L144 384 L144 144 L368 144 L368 368 L144 368 L144 384 L384 384 L384 128 Z" fill="#2563EB" />
+  
+  <!-- 问号 -->
+  <text x="256" y="280" font-family="Arial, sans-serif" font-size="180" font-weight="bold" text-anchor="middle" fill="#3B82F6">?</text>
+  
+  <!-- 随机数字 -->
+  <text x="200" y="340" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#3B82F6">7</text>
+  <text x="256" y="340" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#3B82F6">3</text>
+  <text x="312" y="340" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#3B82F6">9</text>
+  
+  <!-- 门把手 -->
+  <circle cx="368" cy="256" r="16" fill="#3B82F6" />
+  
+  <!-- 敲门的手 -->
+  <g transform="translate(400, 256) rotate(-30)">
+    <rect x="-10" y="-25" width="20" height="50" rx="10" ry="10" fill="#FFFFFF" />
+    <rect x="-30" y="-25" width="20" height="40" rx="10" ry="10" fill="#FFFFFF" />
+    <rect x="-50" y="-25" width="20" height="30" rx="10" ry="10" fill="#FFFFFF" />
+  </g>
+</svg> 
